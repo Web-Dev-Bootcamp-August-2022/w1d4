@@ -63,4 +63,18 @@ body {
 		opacity: 1;
 		transform: scale(1)
 	}
-} 
+}
+@media (max-width: 480px) {
+	.container {
+		flex-direction: column;
+	}
+	.box {
+		width: 80vw;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.box {
+		color: red
+	}
+}
